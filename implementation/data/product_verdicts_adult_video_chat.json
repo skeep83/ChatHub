@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Stripchat",
+    "best_fit": "users wanting broad discovery and private-show flexibility",
+    "adoption_score": 9,
+    "workflow_depth_score": 8,
+    "marketing_score": 8,
+    "complexity": "low",
+    "verdict": "Best all-round starting point for broad cam discovery and private-session flexibility."
+  },
+  {
+    "name": "Chaturbate",
+    "best_fit": "mainstream users preferring public-room browsing and discovery",
+    "adoption_score": 9,
+    "workflow_depth_score": 7,
+    "marketing_score": 9,
+    "complexity": "low",
+    "verdict": "Strong mainstream option when free-to-paid browsing and broad awareness matter most."
+  },
+  {
+    "name": "LiveJasmin",
+    "best_fit": "buyers wanting a premium private-chat experience",
+    "adoption_score": 7,
+    "workflow_depth_score": 8,
+    "marketing_score": 7,
+    "complexity": "medium",
+    "verdict": "Best fit when premium positioning and private-chat quality matter more than mass-market scale."
+  },
+  {
+    "name": "Flirt4Free",
+    "best_fit": "users leaning toward premium private-session platforms",
+    "adoption_score": 7,
+    "workflow_depth_score": 8,
+    "marketing_score": 6,
+    "complexity": "medium",
+    "verdict": "Good premium alternative for private-session-first buyers comparing higher-end options."
+  }
+]
