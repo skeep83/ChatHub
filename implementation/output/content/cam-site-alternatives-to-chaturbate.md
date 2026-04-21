@@ -33,7 +33,7 @@ The best alternative is the one that fixes the current pain point without adding
 The best alternative is the one that fixes the experience mismatch without pushing the buyer into a weaker offer style.
 
 ## Call to action
-Focus on the alternatives that fix the operational mismatch without adding new complexity the team does not need.
+If Chaturbate feels too mainstream or too weak on private-chat fit, start by comparing Stripchat and LiveJasmin before looking further sideways.
 
 ## Product records
 
@@ -104,9 +104,6 @@ Focus on the alternatives that fix the operational mismatch without adding new c
 - Weaknesses: smaller mainstream awareness than top mass-market sites, premium pricing can narrow fit
 - Pricing note: premium pricing posture, usually more relevant for intentional private-spend users
 - Source: https://www.flirt4free.com/
-
-## Editor note
-This page should be reviewed before publication, especially if it carries affiliate links or product claims.
 
 ## Decision shortcuts
 - Switch to Stripchat if you want the strongest all-round replacement.
