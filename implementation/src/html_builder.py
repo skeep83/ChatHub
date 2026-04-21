@@ -387,36 +387,109 @@ def render_index(pages: list[tuple[str, str]]) -> str:
   <meta name=\"description\" content=\"{html.escape(homepage_description)}\">
   <title>Best Adult Video Chat Sites and Private Cam Guides | {html.escape(SITE_NAME)}</title>
   <style>
-    body {{ margin:0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: linear-gradient(180deg, #f3f6fb, #e8edf6); color:#152033; }}
-    .shell {{ max-width: 1120px; margin:0 auto; padding: 28px 18px 60px; }}
-    .hero, .index-card, .cluster-card {{ background: rgba(255,255,255,0.65); border:1px solid rgba(255,255,255,.65); box-shadow: 14px 14px 30px rgba(163,177,198,.34), -12px -12px 28px rgba(255,255,255,.9); backdrop-filter: blur(14px) saturate(130%); }}
-    .hero {{ border-radius: 30px; padding: 34px; margin-bottom:22px; }}
-    h1 {{ font-size: clamp(2.2rem, 4vw, 4rem); margin: 0 0 12px; letter-spacing: -.04em; }}
-    h2 {{ margin: 28px 0 14px; font-size: 1.4rem; }}
-    p {{ color:#5d6d88; line-height:1.65; }}
-    .grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:18px; margin-top:10px; }}
-    .index-card, .cluster-card {{ display:block; padding:20px; border-radius:22px; color:inherit; text-decoration:none; }}
-    .index-card strong, .cluster-card strong {{ display:block; margin-bottom: 8px; font-size: 1.05rem; }}
-    .cluster-card ul {{ margin: 10px 0 0; padding-left: 18px; color:#5d6d88; }}
+    :root {{
+      --bg: #0e0a17;
+      --bg-2: #171125;
+      --panel: rgba(22,16,36,0.82);
+      --panel-2: rgba(35,25,54,0.92);
+      --line: rgba(255,255,255,0.08);
+      --text: #f6f0ff;
+      --muted: #b8afca;
+      --accent: #ff4fa3;
+      --accent-2: #8b5cff;
+      --glow: 0 24px 80px rgba(139,92,255,0.22);
+    }}
+    * {{ box-sizing:border-box; }}
+    body {{ margin:0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: radial-gradient(circle at top, rgba(255,79,163,.14), transparent 26%), radial-gradient(circle at right top, rgba(139,92,255,.18), transparent 30%), linear-gradient(180deg, var(--bg), var(--bg-2)); color:var(--text); }}
+    a {{ color:inherit; text-decoration:none; }}
+    .shell {{ max-width: 1180px; margin:0 auto; padding: 28px 18px 70px; }}
+    .topbar {{ display:flex; justify-content:space-between; align-items:center; gap:14px; margin-bottom:20px; padding:16px 20px; border:1px solid var(--line); background:rgba(14,10,23,.55); backdrop-filter: blur(14px); border-radius:22px; }}
+    .brand-kicker {{ font-size:.76rem; text-transform:uppercase; letter-spacing:.12em; color:#ff86bf; font-weight:700; }}
+    .brand-name {{ font-size:1rem; font-weight:700; }}
+    .topnav {{ display:flex; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:.95rem; }}
+    .hero {{ display:grid; grid-template-columns: 1.35fr .85fr; gap:22px; margin-bottom:24px; }}
+    .hero-main, .hero-side, .section-shell, .index-card, .cluster-card, .trust-strip {{ background: var(--panel); border:1px solid var(--line); border-radius:28px; box-shadow: var(--glow); backdrop-filter: blur(16px); }}
+    .hero-main {{ padding:40px; }}
+    .hero-side {{ padding:24px; display:grid; gap:14px; align-content:start; }}
+    .eyebrow {{ font-size:.78rem; text-transform:uppercase; letter-spacing:.14em; color:#ff86bf; font-weight:700; }}
+    h1 {{ font-size: clamp(2.7rem, 5vw, 5.2rem); margin: 12px 0 16px; letter-spacing: -.05em; line-height:.95; }}
+    h2 {{ margin: 0 0 16px; font-size: 1.35rem; letter-spacing:-.02em; }}
+    p {{ color:var(--muted); line-height:1.7; margin:0; }}
+    .hero-copy {{ max-width: 60ch; font-size:1.06rem; }}
+    .hero-actions {{ display:flex; gap:12px; flex-wrap:wrap; margin-top:24px; }}
+    .cta {{ display:inline-flex; align-items:center; justify-content:center; padding:13px 18px; border-radius:999px; font-weight:700; }}
+    .cta-primary {{ background: linear-gradient(135deg, var(--accent), var(--accent-2)); color:white; }}
+    .cta-secondary {{ border:1px solid var(--line); background: rgba(255,255,255,.04); color:var(--text); }}
+    .hero-metric {{ padding:16px 18px; border-radius:20px; background: var(--panel-2); border:1px solid var(--line); }}
+    .hero-metric span {{ display:block; font-size:.76rem; text-transform:uppercase; letter-spacing:.1em; color:#ff86bf; margin-bottom:6px; }}
+    .section-shell {{ padding:22px; margin-top:18px; }}
+    .section-head {{ display:flex; justify-content:space-between; align-items:end; gap:16px; margin-bottom:12px; }}
+    .section-head p {{ max-width: 56ch; font-size:.95rem; }}
+    .grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:18px; }}
+    .index-card, .cluster-card {{ display:block; padding:22px; transition: transform .18s ease, border-color .18s ease; }}
+    .index-card:hover, .cluster-card:hover {{ transform: translateY(-4px); border-color: rgba(255,255,255,.18); }}
+    .index-card strong, .cluster-card strong {{ display:block; margin-bottom:8px; font-size:1.08rem; }}
+    .card-kicker {{ font-size:.74rem; text-transform:uppercase; letter-spacing:.12em; color:#ff86bf; margin-bottom:12px; }}
+    .cluster-card ul {{ margin: 12px 0 0; padding-left: 18px; color:var(--muted); }}
+    .cluster-card li {{ margin-bottom:8px; }}
+    .trust-strip {{ display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; padding:18px; margin-top:18px; }}
+    .trust-item {{ padding:14px 16px; border-radius:18px; background: var(--panel-2); border:1px solid var(--line); }}
+    .trust-item strong {{ display:block; margin-bottom:6px; }}
+    @media (max-width: 920px) {{ .hero, .trust-strip {{ grid-template-columns:1fr; }} .hero-main {{ padding:28px; }} }}
   </style>
   {ga4_snippet()}
 </head>
 <body>
 {SKIMLINKS_SNIPPET}
   <div class="shell">
+    <header class="topbar">
+      <div>
+        <div class="brand-kicker">DirtyChatHub</div>
+        <div class="brand-name">Adult cam comparison and private chat guides</div>
+      </div>
+      <nav class="topnav">
+        <a href="/best-adult-video-chat-sites">Best sites</a>
+        <a href="/best-private-cam-sites">Private cams</a>
+        <a href="/stripchat-vs-chaturbate">Top comparison</a>
+      </nav>
+    </header>
     <section class="hero">
-      <div style="font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:#7f5cff;font-weight:700;">DirtyChatHub</div>
-      <h1>{html.escape(SITE_NAME)}</h1>
-      <p>{html.escape(SITE_TAGLINE)}. Built to help users compare adult video chat sites faster, with clearer comparisons, alternatives, and private-chat buying guidance.</p>
+      <div class="hero-main">
+        <div class="eyebrow">Adult video chat buyer guides</div>
+        <h1>Find the right cam site faster, skip the junk.</h1>
+        <p class="hero-copy">{html.escape(SITE_TAGLINE)}. DirtyChatHub is built to help users compare mainstream cam sites, private-chat options, and premium alternatives without bouncing through low-quality affiliate junk pages.</p>
+        <div class="hero-actions">
+          <a class="cta cta-primary" href="/best-adult-video-chat-sites">Start with the best sites</a>
+          <a class="cta cta-secondary" href="/best-private-cam-sites">See private cam picks</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <div class="hero-metric"><span>Focus</span><strong>Mainstream vs premium fit</strong></div>
+        <div class="hero-metric"><span>Format</span><strong>Best-of guides, comparisons, alternatives</strong></div>
+        <div class="hero-metric"><span>Commercial layer</span><strong>Live room discovery plus tracked offers</strong></div>
+      </aside>
     </section>
-    <h2>Featured buying guides</h2>
-    <section class="grid">{featured}</section>
-    <h2>Trust and editorial pages</h2>
-    <section class="grid">{trust}</section>
-    <h2>Core topic clusters</h2>
-    <section class="grid">{''.join(clusters)}</section>
-    <h2>More guides</h2>
-    <section class="grid">{latest}</section>
+    <section class="trust-strip">
+      <div class="trust-item"><strong>Cleaner routing</strong><p>Fast static pages with clearer buyer paths instead of noisy churn pages.</p></div>
+      <div class="trust-item"><strong>Comparison-first</strong><p>Built around shortlist decisions, not random brand dumping.</p></div>
+      <div class="trust-item"><strong>Live discovery</strong><p>Priority pages can surface live rooms without turning the whole site into embed spam.</p></div>
+    </section>
+    <section class="section-shell">
+      <div class="section-head"><div><h2>Featured buying guides</h2></div><p>Start here if you want the fastest path from browsing intent to a usable shortlist.</p></div>
+      <section class="grid">{featured}</section>
+    </section>
+    <section class="section-shell">
+      <div class="section-head"><div><h2>Trust and editorial pages</h2></div><p>Low drama, clear positioning, and visible site intent.</p></div>
+      <section class="grid">{trust}</section>
+    </section>
+    <section class="section-shell">
+      <div class="section-head"><div><h2>Core topic clusters</h2></div><p>Organized around best-of pages, side-by-side comparisons, and alternatives research.</p></div>
+      <section class="grid">{''.join(clusters)}</section>
+    </section>
+    <section class="section-shell">
+      <div class="section-head"><div><h2>More guides</h2></div><p>Secondary pages for users who already know the angle they want to explore.</p></div>
+      <section class="grid">{latest}</section>
+    </section>
   </div>
 </body>
 </html>"""
