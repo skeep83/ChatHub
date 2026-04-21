@@ -126,6 +126,6 @@ This page should be reviewed before publication, especially if it carries affili
 ## Offers
 
 - [Try Stripchat](https://example.com/aff/stripchat)
-- [Try Chaturbate](https://example.com/aff/chaturbate)
+- [Try Chaturbate](https://chaturbate.com/in/?tour=grq0&campaign=aoQgT&track=skeepy83_flirt4free_vs_livejasmin)
 - [Try LiveJasmin](https://example.com/aff/livejasmin)
 - [Try Flirt4Free](https://example.com/aff/flirt4free)

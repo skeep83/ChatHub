@@ -3,12 +3,18 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 
-def detect_meta(text: str) -> tuple[str, str]:
+def detect_meta(text: str) -> tuple[str, str, str]:
     page_type = re.search(r'page_type: "([^"]+)"', text)
     subtype = re.search(r'page_subtype: "([^"]+)"', text)
-    return (page_type.group(1) if page_type else 'general', subtype.group(1) if subtype else 'general')
+    slug = re.search(r'slug: "([^"]+)"', text)
+    return (
+        page_type.group(1) if page_type else 'general',
+        subtype.group(1) if subtype else 'general',
+        slug.group(1) if slug else 'general',
+    )
 
 
 def product_order(page_type: str, subtype: str) -> list[str]:
@@ -46,11 +52,32 @@ def cta_overrides(page_type: str, subtype: str) -> dict[str, str]:
     return {}
 
 
-def build_block(by_product: dict, page_type: str, subtype: str) -> str:
+def tracked_chaturbate_link(slug: str, page_type: str) -> str:
+    if page_type == 'best_of' and 'private' in slug:
+        base = 'https://chaturbate.com/in/?tour=dU9X&campaign=aoQgT&track=default&signup_notice=1'
+    elif 'anonymous' in slug:
+        base = 'https://chaturbate.com/in/?tour=IGtl&campaign=aoQgT&track=default'
+    elif 'couple' in slug:
+        base = 'https://chaturbate.com/in/?tour=0G9g&campaign=aoQgT&track=default'
+    elif 'trans' in slug:
+        base = 'https://chaturbate.com/in/?tour=khMd&campaign=aoQgT&track=default'
+    else:
+        base = 'https://chaturbate.com/in/?tour=grq0&campaign=aoQgT&track=default'
+
+    track = f"skeepy83_{slug.replace('-', '_')[:40]}"
+    parts = urlsplit(base)
+    query = dict(parse_qsl(parts.query, keep_blank_values=True))
+    query['track'] = track
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+
+
+def build_block(by_product: dict, page_type: str, subtype: str, slug: str) -> str:
     lines = ['## Offers', '']
     overrides = cta_overrides(page_type, subtype)
     for product in product_order(page_type, subtype):
-        item = by_product[product]
+        item = by_product[product].copy()
+        if product == 'Chaturbate':
+            item['placeholder_url'] = tracked_chaturbate_link(slug, page_type)
         cta = overrides.get(product, item['cta'])
         lines.append(f'- [{cta}]({item["placeholder_url"]})')
     lines.append('')
@@ -65,8 +92,8 @@ def main() -> None:
     updated = 0
     for file in content_dir.glob('*.md'):
         text = file.read_text()
-        page_type, subtype = detect_meta(text)
-        block = build_block(by_product, page_type, subtype)
+        page_type, subtype, slug = detect_meta(text)
+        block = build_block(by_product, page_type, subtype, slug)
         if '## Offers' in text:
             text = re.sub(r'## Offers\n(?:.*\n)*?(?=\n## |\Z)', block + '\n', text, flags=re.MULTILINE)
         else:

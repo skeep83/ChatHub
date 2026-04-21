@@ -143,57 +143,57 @@ This page should be reviewed before publication, especially if it carries affili
 ## Offers
 
 - [Try Stripchat if you want the broadest all-round cam discovery experience](https://example.com/aff/stripchat)
-- [Try Chaturbate if you want the biggest mainstream free-to-paid browsing funnel](https://example.com/aff/chaturbate)
+- [Try Chaturbate if you want the biggest mainstream free-to-paid browsing funnel](https://chaturbate.com/in/?tour=grq0&campaign=aoQgT&track=skeepy83_best_adult_video_chat_sites)
 - [Try LiveJasmin if you care more about premium private chat than mass-market volume](https://example.com/aff/livejasmin)
 - [Try Flirt4Free if you want a private-session-first premium option](https://example.com/aff/flirt4free)
 
 ## Live rooms worth checking right now
 
+### Scar
+- Show type: public
+- Viewers now: 2676
+- Followers: 239913
+- Tags: cb15, petite, hot, new
+- Room note: cum and yapp #cb15 #petite #hot #new
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=scarlettgracevip)
+
 ### Kelly
 - Show type: public
-- Viewers now: 3913
-- Followers: 719289
+- Viewers now: 3437
+- Followers: 719431
 - Tags: bigboobs, pussy, deepthroat, feet
 - Room note: Hi :3 At goal 79 Squirt  - #bigboobs #pussy #deepthroat #feet  #cum  #latina #squirt  #oil #sloppy #fuckmachine - Multi Goal: Enjoy with me 😈😈 [99tk each Goal] #lovense
 - [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=kellytesh)
 
-### Maya Hill
-- Show type: public
-- Viewers now: 2183
-- Followers: 101332
-- Tags: new, teen, 19, asian
-- Room note: XBIZ 2026 NOMINEE 🎉😍  Oil and ass worship [233 tokens left] #new #teen #19 #asian #skinny
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=therealmayahill)
-
 ### Your dolls are the only original ones.
 - Show type: public
-- Viewers now: 2123
-- Followers: 525737
+- Viewers now: 2133
+- Followers: 525775
 - Tags: 18, anal, lesbian, new
-- Room note: CrazyGoal: 5some bi- Facefuck all girls (2 NEW GIRLS Angelina and Sharon )  (PVT IS OPEN)  #18 #anal #lesbian #new #bigboobs #skynny #cum #squirt
+- Room note: 5some bi- Show the ass to all the girls with oil (2 NEW GIRLS Angelina and Sharon )  (PVT IS OPEN)  #18 #anal #lesbian #new #bigboobs #skynny #cum #squirt
 - [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=your_dolls)
 
 ### Amelia!🦋 NEXT STREAM ✨21.04✨ COPLE SHOW WITH WENDY!!
 - Show type: public
-- Viewers now: 2129
-- Followers: 51920
+- Viewers now: 2256
+- Followers: 52068
 - Tags: new, 18, shy, smile
-- Room note: ♡ 💞 GOAL: lower Amelia’s panties & sexy touch in doggy [256 left]  💞 EPIC GOAL: lean against each other with naked boobies [986 left] 💞 #new #18 #shy #smile #natural  Happy anniversary stream!♡
+- Room note: ♡ 💞 GOAL COMPLETE: change to sexier panties/ start ticket show  💞 #new #18 #shy #smile #natural  Happy anniversary stream!♡
 - [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=aluntick)
 
-### Jason Sweets
-- Show type: public
-- Viewers now: 1180
-- Followers: 45861
-- Tags: cb15, bbc, new, fit
-- Room note: #CB15 #bbc #new #fit #tall
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=jasonsweets)
+### Anastasia
+- Show type: private
+- Viewers now: 2093
+- Followers: 651613
+- Tags: bigboobs, erotic, tease, live
+- Room note: Hii! Tease me by tipping my Fav vibes: 201,220, 400, 500, 700tks | 180tk roll dice&win boobs| PVT is open #bigboobs #erotic #tease #live #naked
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=yours_anastasia)
 
-### 𝒩𝒾𝒸𝑜𝓁𝓁𝑒🎀     Instagram: nicollemitchelle
+### Maya Hill
 - Show type: public
-- Viewers now: 2684
-- Followers: 626287
-- Tags: skinny, young, lovense, natural
-- Room note: [4774 tokens to goal] -- Current Goal: Foxtail Buttplug Twerk once countdown reaches zero -- This is the Last Goal!  -- #skinny #young #lovense #natural #bigass  𝒇𝒂𝒗 𝒑𝒂𝒕𝒕𝒆𝒓𝒏𝒔 38-120-160
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=nicolle_mitchelle)
+- Viewers now: 1764
+- Followers: 101413
+- Tags: new, teen, 19, asian
+- Room note: XBIZ 2026 NOMINEE 🎉😍  Grind on Pillow + Blowjob [1817 tokens left] #new #teen #19 #asian #skinny
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=therealmayahill)
 
