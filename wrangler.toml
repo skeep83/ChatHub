@@ -1,0 +1,10 @@
+name = "chathub"
+compatibility_date = "2026-04-21"
+
+main = "index.js"
+
+[assets]
+directory = "implementation/output/site"
+not_found_handling = "404-page"
+run_worker_first = true
+binding = "ASSETS"
