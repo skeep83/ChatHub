@@ -146,3 +146,54 @@ This page should be reviewed before publication, especially if it carries affili
 - [Try Chaturbate if you want the biggest mainstream free-to-paid browsing funnel](https://example.com/aff/chaturbate)
 - [Try LiveJasmin if you care more about premium private chat than mass-market volume](https://example.com/aff/livejasmin)
 - [Try Flirt4Free if you want a private-session-first premium option](https://example.com/aff/flirt4free)
+
+## Live private-chat leaning rooms right now
+
+### Kelly
+- Show type: public
+- Viewers now: 3913
+- Followers: 719289
+- Tags: bigboobs, pussy, deepthroat, feet
+- Room note: Hi :3 At goal 79 Squirt  - #bigboobs #pussy #deepthroat #feet  #cum  #latina #squirt  #oil #sloppy #fuckmachine - Multi Goal: Enjoy with me 😈😈 [99tk each Goal] #lovense
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=kellytesh)
+
+### Maya Hill
+- Show type: public
+- Viewers now: 2183
+- Followers: 101332
+- Tags: new, teen, 19, asian
+- Room note: XBIZ 2026 NOMINEE 🎉😍  Oil and ass worship [233 tokens left] #new #teen #19 #asian #skinny
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=therealmayahill)
+
+### Your dolls are the only original ones.
+- Show type: public
+- Viewers now: 2123
+- Followers: 525737
+- Tags: 18, anal, lesbian, new
+- Room note: CrazyGoal: 5some bi- Facefuck all girls (2 NEW GIRLS Angelina and Sharon )  (PVT IS OPEN)  #18 #anal #lesbian #new #bigboobs #skynny #cum #squirt
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=your_dolls)
+
+### Amelia!🦋 NEXT STREAM ✨21.04✨ COPLE SHOW WITH WENDY!!
+- Show type: public
+- Viewers now: 2129
+- Followers: 51920
+- Tags: new, 18, shy, smile
+- Room note: ♡ 💞 GOAL: lower Amelia’s panties & sexy touch in doggy [256 left]  💞 EPIC GOAL: lean against each other with naked boobies [986 left] 💞 #new #18 #shy #smile #natural  Happy anniversary stream!♡
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=aluntick)
+
+### Jason Sweets
+- Show type: public
+- Viewers now: 1180
+- Followers: 45861
+- Tags: cb15, bbc, new, fit
+- Room note: #CB15 #bbc #new #fit #tall
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=jasonsweets)
+
+### 𝒩𝒾𝒸𝑜𝓁𝓁𝑒🎀     Instagram: nicollemitchelle
+- Show type: public
+- Viewers now: 2684
+- Followers: 626287
+- Tags: skinny, young, lovense, natural
+- Room note: [4774 tokens to goal] -- Current Goal: Foxtail Buttplug Twerk once countdown reaches zero -- This is the Last Goal!  -- #skinny #young #lovense #natural #bigass  𝒇𝒂𝒗 𝒑𝒂𝒕𝒕𝒆𝒓𝒏𝒔 38-120-160
+- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=nicolle_mitchelle)
+
