@@ -301,17 +301,17 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     .product-body p {{ margin-bottom:8px; }}
     .site-index {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 22px; }}
     .index-card {{ padding: 18px; border-radius: 20px; background: var(--surface); border:1px solid var(--border); box-shadow: var(--shadow-soft); backdrop-filter: blur(14px) saturate(130%); }}
-    .live-room-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; }
-    .live-room-card { overflow:hidden; border-radius:22px; background: rgba(255,255,255,0.78); box-shadow: var(--shadow-inset); display:flex; flex-direction:column; }
-    .live-room-thumb { display:block; aspect-ratio: 4 / 3; background: #d8deeb; }
-    .live-room-thumb img { width:100%; height:100%; object-fit:cover; display:block; }
-    .live-room-body { padding:16px; display:flex; flex-direction:column; gap:10px; }
-    .live-room-body h3 { margin:0; }
-    .live-room-metrics { display:flex; flex-wrap:wrap; gap:8px; font-size:.82rem; color: var(--muted); }
-    .live-room-metrics span, .live-tag { padding:6px 10px; border-radius:999px; background: rgba(255,255,255,0.82); box-shadow: var(--shadow-inset); }
-    .live-room-tags { display:flex; flex-wrap:wrap; gap:8px; }
-    .live-subject { font-size:.92rem; color:#22314b; }
-    .live-room-cta { width:100%; margin-top:auto; }
+    .live-room-grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; }}
+    .live-room-card {{ overflow:hidden; border-radius:22px; background: rgba(255,255,255,0.78); box-shadow: var(--shadow-inset); display:flex; flex-direction:column; }}
+    .live-room-thumb {{ display:block; aspect-ratio: 4 / 3; background: #d8deeb; }}
+    .live-room-thumb img {{ width:100%; height:100%; object-fit:cover; display:block; }}
+    .live-room-body {{ padding:16px; display:flex; flex-direction:column; gap:10px; }}
+    .live-room-body h3 {{ margin:0; }}
+    .live-room-metrics {{ display:flex; flex-wrap:wrap; gap:8px; font-size:.82rem; color: var(--muted); }}
+    .live-room-metrics span, .live-tag {{ padding:6px 10px; border-radius:999px; background: rgba(255,255,255,0.82); box-shadow: var(--shadow-inset); }}
+    .live-room-tags {{ display:flex; flex-wrap:wrap; gap:8px; }}
+    .live-subject {{ font-size:.92rem; color:#22314b; }}
+    .live-room-cta {{ width:100%; margin-top:auto; }}
     @media (max-width: 920px) {{
       .hero-shell, .content-grid {{ grid-template-columns: 1fr; }}
       .shell {{ padding: 18px 14px 42px; }}
