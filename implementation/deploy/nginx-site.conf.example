@@ -1,0 +1,15 @@
+server {
+    listen 80;
+    server_name example.com www.example.com;
+
+    root /var/www/autonomous-seo-ai-farm;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location = /sitemap.xml {
+        add_header Content-Type application/xml;
+    }
+}

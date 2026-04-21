@@ -1,0 +1,40 @@
+{
+  "site_dir": "/home/skeep/.openclaw/workspace/projects/autonomous-seo-ai-farm/implementation/output/site",
+  "artifact_count": 8,
+  "files": [
+    {
+      "name": "best-crm-for-small-service-business.html",
+      "size": 2928
+    },
+    {
+      "name": "crm-for-electricians.html",
+      "size": 2906
+    },
+    {
+      "name": "crm-for-plumbers.html",
+      "size": 2898
+    },
+    {
+      "name": "housecall-pro-vs-jobber.html",
+      "size": 2924
+    },
+    {
+      "name": "index.html",
+      "size": 830
+    },
+    {
+      "name": "jobber-alternatives.html",
+      "size": 2850
+    },
+    {
+      "name": "sitemap.xml",
+      "size": 619
+    },
+    {
+      "name": "what-is-a-crm-for-home-service-businesses.html",
+      "size": 2842
+    }
+  ],
+  "deploy_target": "pending-domain",
+  "recommended_first_hosting": "nginx or static file host"
+}

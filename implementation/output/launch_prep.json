@@ -1,0 +1,17 @@
+{
+  "must_do_before_launch": [
+    "pick domain",
+    "replace example.com in site builders",
+    "review top 5 commercial pages",
+    "add at least one monetization destination",
+    "configure nginx and static deploy",
+    "verify site on public URL",
+    "connect analytics"
+  ],
+  "nice_to_have": [
+    "brand styling pass",
+    "logo and simple design layer",
+    "email capture flow",
+    "search console submission"
+  ]
+}

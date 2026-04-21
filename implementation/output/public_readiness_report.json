@@ -1,0 +1,11 @@
+{
+  "artifact_count": 8,
+  "review_queue_count": 5,
+  "public_ready": false,
+  "blocking_items": [
+    "domain not chosen",
+    "commercial pages need review",
+    "affiliate/lead integrations not wired",
+    "analytics provider not connected"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Jobber",
+    "category": "field service crm",
+    "best_for": ["plumbers", "electricians", "home service teams"],
+    "strengths": ["job scheduling", "quoting", "invoicing", "customer management"],
+    "weaknesses": ["can get expensive as team grows"],
+    "pricing_note": "subscription pricing, varies by plan",
+    "source_url": "https://getjobber.com/"
+  },
+  {
+    "name": "Housecall Pro",
+    "category": "field service crm",
+    "best_for": ["home service businesses", "growing dispatch teams"],
+    "strengths": ["dispatching", "payments", "estimates", "customer communication"],
+    "weaknesses": ["feature depth may be overkill for very small teams"],
+    "pricing_note": "subscription pricing, varies by plan",
+    "source_url": "https://www.housecallpro.com/"
+  },
+  {
+    "name": "ServiceTitan",
+    "category": "field service crm",
+    "best_for": ["larger service businesses", "operations-heavy teams"],
+    "strengths": ["enterprise workflows", "reporting", "dispatch", "sales tools"],
+    "weaknesses": ["higher complexity", "often better for larger teams"],
+    "pricing_note": "custom pricing or sales-led pricing",
+    "source_url": "https://www.servicetitan.com/"
+  },
+  {
+    "name": "HubSpot",
+    "category": "general crm",
+    "best_for": ["service businesses needing marketing plus CRM"],
+    "strengths": ["pipeline management", "automation", "marketing tools"],
+    "weaknesses": ["not purpose-built for field service workflows"],
+    "pricing_note": "free tier plus paid plans",
+    "source_url": "https://www.hubspot.com/"
+  },
+  {
+    "name": "Zoho CRM",
+    "category": "general crm",
+    "best_for": ["budget-conscious small businesses"],
+    "strengths": ["customizability", "automation", "broad ecosystem"],
+    "weaknesses": ["requires setup work to fit home service use cases"],
+    "pricing_note": "tiered subscription pricing",
+    "source_url": "https://www.zoho.com/crm/"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Jobber",
+    "best_fit": "small field-service teams needing simple operations coverage",
+    "adoption_score": 9,
+    "workflow_depth_score": 7,
+    "marketing_score": 4,
+    "complexity": "low",
+    "verdict": "Best starting point for many small service businesses that want estimates, scheduling, invoicing, and customer follow-up without heavy setup."
+  },
+  {
+    "name": "Housecall Pro",
+    "best_fit": "growing service teams needing stronger communication and dispatch coordination",
+    "adoption_score": 8,
+    "workflow_depth_score": 8,
+    "marketing_score": 4,
+    "complexity": "medium",
+    "verdict": "Strong option when communication, payments, and dispatch feel central to the business model."
+  },
+  {
+    "name": "ServiceTitan",
+    "best_fit": "larger service operations with heavier process complexity",
+    "adoption_score": 4,
+    "workflow_depth_score": 10,
+    "marketing_score": 5,
+    "complexity": "high",
+    "verdict": "Powerful, but usually too heavy for smaller operators unless workflow depth clearly outweighs complexity cost."
+  },
+  {
+    "name": "HubSpot",
+    "best_fit": "service businesses valuing CRM pipeline and marketing flexibility",
+    "adoption_score": 8,
+    "workflow_depth_score": 4,
+    "marketing_score": 10,
+    "complexity": "medium",
+    "verdict": "Best when pipeline visibility, automation, and marketing matter more than field-service-specific operations."
+  }
+]

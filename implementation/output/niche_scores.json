@@ -1,0 +1,102 @@
+[
+  {
+    "name": "CRM tools for small service businesses",
+    "demand": 8,
+    "monetization": 9,
+    "freshness": 7,
+    "data_availability": 8,
+    "serp_weakness": 5,
+    "trust_barrier": 6,
+    "score": 7.45
+  },
+  {
+    "name": "AI note takers for sales teams",
+    "demand": 8,
+    "monetization": 8,
+    "freshness": 7,
+    "data_availability": 8,
+    "serp_weakness": 6,
+    "trust_barrier": 5,
+    "score": 7.4
+  },
+  {
+    "name": "AI tools for real estate agents",
+    "demand": 8,
+    "monetization": 8,
+    "freshness": 7,
+    "data_availability": 7,
+    "serp_weakness": 6,
+    "trust_barrier": 5,
+    "score": 7.25
+  },
+  {
+    "name": "Appointment software for clinics",
+    "demand": 7,
+    "monetization": 9,
+    "freshness": 7,
+    "data_availability": 7,
+    "serp_weakness": 5,
+    "trust_barrier": 7,
+    "score": 7.0
+  },
+  {
+    "name": "Email tools for creators",
+    "demand": 7,
+    "monetization": 8,
+    "freshness": 6,
+    "data_availability": 8,
+    "serp_weakness": 6,
+    "trust_barrier": 5,
+    "score": 7.0
+  },
+  {
+    "name": "Website chatbots for local businesses",
+    "demand": 7,
+    "monetization": 8,
+    "freshness": 7,
+    "data_availability": 7,
+    "serp_weakness": 6,
+    "trust_barrier": 5,
+    "score": 7.0
+  },
+  {
+    "name": "AI tools for lawyers",
+    "demand": 7,
+    "monetization": 8,
+    "freshness": 6,
+    "data_availability": 7,
+    "serp_weakness": 6,
+    "trust_barrier": 6,
+    "score": 6.8
+  },
+  {
+    "name": "VPNs for remote workers",
+    "demand": 8,
+    "monetization": 9,
+    "freshness": 5,
+    "data_availability": 6,
+    "serp_weakness": 4,
+    "trust_barrier": 7,
+    "score": 6.65
+  },
+  {
+    "name": "Proposal software for freelancers",
+    "demand": 6,
+    "monetization": 8,
+    "freshness": 5,
+    "data_availability": 7,
+    "serp_weakness": 7,
+    "trust_barrier": 4,
+    "score": 6.65
+  },
+  {
+    "name": "Password managers for families",
+    "demand": 7,
+    "monetization": 8,
+    "freshness": 4,
+    "data_availability": 6,
+    "serp_weakness": 5,
+    "trust_barrier": 7,
+    "score": 6.15
+  }
+]
