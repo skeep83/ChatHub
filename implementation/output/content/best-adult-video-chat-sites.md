@@ -148,52 +148,12 @@ This page should be reviewed before publication, especially if it carries affili
 - [Try Flirt4Free if you want a private-session-first premium option](https://example.com/aff/flirt4free)
 
 ## Live rooms worth checking right now
+<!-- chaturbate-live-grid -->
 
-### Scar
-- Show type: public
-- Viewers now: 2676
-- Followers: 239913
-- Tags: cb15, petite, hot, new
-- Room note: cum and yapp #cb15 #petite #hot #new
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=scarlettgracevip)
-
-### Kelly
-- Show type: public
-- Viewers now: 3437
-- Followers: 719431
-- Tags: bigboobs, pussy, deepthroat, feet
-- Room note: Hi :3 At goal 79 Squirt  - #bigboobs #pussy #deepthroat #feet  #cum  #latina #squirt  #oil #sloppy #fuckmachine - Multi Goal: Enjoy with me 😈😈 [99tk each Goal] #lovense
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=kellytesh)
-
-### Your dolls are the only original ones.
-- Show type: public
-- Viewers now: 2133
-- Followers: 525775
-- Tags: 18, anal, lesbian, new
-- Room note: 5some bi- Show the ass to all the girls with oil (2 NEW GIRLS Angelina and Sharon )  (PVT IS OPEN)  #18 #anal #lesbian #new #bigboobs #skynny #cum #squirt
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=your_dolls)
-
-### Amelia!🦋 NEXT STREAM ✨21.04✨ COPLE SHOW WITH WENDY!!
-- Show type: public
-- Viewers now: 2256
-- Followers: 52068
-- Tags: new, 18, shy, smile
-- Room note: ♡ 💞 GOAL COMPLETE: change to sexier panties/ start ticket show  💞 #new #18 #shy #smile #natural  Happy anniversary stream!♡
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=aluntick)
-
-### Anastasia
-- Show type: private
-- Viewers now: 2093
-- Followers: 651613
-- Tags: bigboobs, erotic, tease, live
-- Room note: Hii! Tease me by tipping my Fav vibes: 201,220, 400, 500, 700tks | 180tk roll dice&win boobs| PVT is open #bigboobs #erotic #tease #live #naked
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=yours_anastasia)
-
-### Maya Hill
-- Show type: public
-- Viewers now: 1764
-- Followers: 101413
-- Tags: new, teen, 19, asian
-- Room note: XBIZ 2026 NOMINEE 🎉😍  Grind on Pillow + Blowjob [1817 tokens left] #new #teen #19 #asian #skinny
-- [Open room](https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=therealmayahill)
+CB-LIVE-CARD::Kelly||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=kellytesh||https://thumb.live.mmcdn.com/ri/kellytesh.jpg||3561||719470||public||bigboobs|pussy|deepthroat|feet||Hi :3 At goal 79 Squirt  - #bigboobs #pussy #deepthroat #feet  #cum  #latina #squirt  #oil #sloppy #fuckmachine - Multi Goal: Enjoy with me 😈😈 [99tk each Goal] #lovense
+CB-LIVE-CARD::Lily||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=x_lily_x||https://thumb.live.mmcdn.com/ri/x_lily_x.jpg||2097||1285806||public||natural|hush|tease|domi||2 FOR TUESDAY. SONG REQUESTS 100 TOKENS FOR 2 SONGS. OBLIDGE ME.  #natural #hush #tease #domi #british
+CB-LIVE-CARD::Amelia!🦋 NEXT STREAM ✨21.04✨ COPLE SHOW WITH WENDY!!||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=aluntick||https://thumb.live.mmcdn.com/ri/aluntick.jpg||2510||52159||hidden||new|18|shy|smile||♡ 💞 GOAL: Shiny diamonds on our boobies :) [568 left]  💞 #new #18 #shy #smile #natural  Happy anniversary stream!♡
+CB-LIVE-CARD::Jason Sweets||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=jasonsweets||https://thumb.live.mmcdn.com/ri/jasonsweets.jpg||1471||45992||public||cb15|bbc|new|fit||#CB15 #bbc #new #fit #tall
+CB-LIVE-CARD::Maya Hill||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=therealmayahill||https://thumb.live.mmcdn.com/ri/therealmayahill.jpg||2092||101498||public||new|teen|19|asian||XBIZ 2026 NOMINEE 🎉😍  Grind on Pillow + Blowjob [1627 tokens left] #new #teen #19 #asian #skinny
+CB-LIVE-CARD::Maya||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=mayaxclarke||https://thumb.live.mmcdn.com/ri/mayaxclarke.jpg||1729||77262||public||18|new||watch me practice my pilates #pilates #18 #new
 

@@ -13,21 +13,22 @@ TARGETS = {
 
 
 def build_block(label: str, rooms: list[dict]) -> str:
-    lines = [f'## {label}', '']
+    lines = [f'## {label}', '<!-- chaturbate-live-grid -->', '']
     for room in rooms[:6]:
-        tags = ', '.join(room.get('tags', [])[:4])
-        show = room.get('current_show') or 'public'
-        lines.append(f"### {room.get('display_name') or room.get('username')}")
-        lines.append(f"- Show type: {show}")
-        lines.append(f"- Viewers now: {room.get('num_users', 0)}")
-        lines.append(f"- Followers: {room.get('num_followers', 0)}")
-        if tags:
-            lines.append(f"- Tags: {tags}")
-        subject = (room.get('room_subject') or '').strip()
-        if subject:
-            lines.append(f"- Room note: {subject}")
-        lines.append(f"- [Open room]({room.get('chat_room_url')})")
-        lines.append('')
+        tags = '|'.join(room.get('tags', [])[:4])
+        subject = (room.get('room_subject') or '').replace('\n', ' ').strip()
+        parts = [
+            room.get('display_name') or room.get('username') or '',
+            room.get('chat_room_url') or '',
+            room.get('image_url') or '',
+            str(room.get('num_users', 0)),
+            str(room.get('num_followers', 0)),
+            room.get('current_show') or 'public',
+            tags,
+            subject,
+        ]
+        lines.append('CB-LIVE-CARD::' + '||'.join(parts))
+    lines.append('')
     return '\n'.join(lines)
 
 

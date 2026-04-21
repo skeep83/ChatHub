@@ -82,6 +82,25 @@ def render_inline(text: str) -> str:
 def render_line(line: str) -> str:
     if not line.strip():
         return ""
+    if line.startswith("<!-- chaturbate-live-grid"):
+        return ""
+    if line.startswith("CB-LIVE-CARD::"):
+        raw = line.split("CB-LIVE-CARD::", 1)[1]
+        name, href, image, viewers, followers, show, tags, subject = (raw.split("||") + [""] * 8)[:8]
+        tag_html = ''.join(f"<span class='live-tag'>{html.escape(tag.strip())}</span>" for tag in tags.split('|') if tag.strip())
+        subject_html = f"<p class='live-subject'>{html.escape(subject)}</p>" if subject else ""
+        image_html = f"<img src='{html.escape(image)}' alt='{html.escape(name)} preview' loading='lazy'>" if image else ""
+        return (
+            "<article class='live-room-card'>"
+            f"<a class='live-room-thumb' href='{html.escape(href)}' target='_blank' rel='nofollow noopener'>{image_html}</a>"
+            "<div class='live-room-body'>"
+            f"<h3>{html.escape(name)}</h3>"
+            f"<div class='live-room-metrics'><span>{html.escape(show.title())}</span><span>{html.escape(viewers)} watching</span><span>{html.escape(followers)} followers</span></div>"
+            f"<div class='live-room-tags'>{tag_html}</div>"
+            f"{subject_html}"
+            f"<a class='button button-primary live-room-cta' href='{html.escape(href)}' target='_blank' rel='nofollow noopener'>Open room</a>"
+            "</div></article>"
+        )
     if line.startswith("### "):
         return f"<h3>{html.escape(line[4:].strip())}</h3>"
     if line.startswith("- "):
@@ -93,6 +112,8 @@ def classify_section(heading: str) -> str:
     name = heading.lower()
     if heading == "Offers":
         return "offer"
+    if 'live rooms' in name:
+        return 'live_rooms'
     if "recommended products" in name or "top picks" in name:
         return "products"
     if "product scorecards" in name:
@@ -128,10 +149,15 @@ def render_section(heading: str, lines: list[str]) -> str:
         "scorecards": "panel panel-soft",
         "comparison": "panel panel-soft",
         "highlight": "panel panel-accent",
+        "live_rooms": "panel panel-soft",
         "default": "panel",
     }
     if section_type in {"products", "scorecards"}:
         return f"<section class='{classes[section_type]}'><h2>{html.escape(heading)}</h2>{render_product_cards(lines)}</section>"
+
+    if section_type == 'live_rooms':
+        cards = [render_line(line) for line in lines if line.strip().startswith('CB-LIVE-CARD::')]
+        return f"<section class='{classes[section_type]}'><h2>{html.escape(heading)}</h2><div class='live-room-grid'>{''.join(cards)}</div></section>"
 
     body: list[str] = []
     list_buffer: list[str] = []
@@ -275,6 +301,17 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     .product-body p {{ margin-bottom:8px; }}
     .site-index {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 22px; }}
     .index-card {{ padding: 18px; border-radius: 20px; background: var(--surface); border:1px solid var(--border); box-shadow: var(--shadow-soft); backdrop-filter: blur(14px) saturate(130%); }}
+    .live-room-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; }
+    .live-room-card { overflow:hidden; border-radius:22px; background: rgba(255,255,255,0.78); box-shadow: var(--shadow-inset); display:flex; flex-direction:column; }
+    .live-room-thumb { display:block; aspect-ratio: 4 / 3; background: #d8deeb; }
+    .live-room-thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+    .live-room-body { padding:16px; display:flex; flex-direction:column; gap:10px; }
+    .live-room-body h3 { margin:0; }
+    .live-room-metrics { display:flex; flex-wrap:wrap; gap:8px; font-size:.82rem; color: var(--muted); }
+    .live-room-metrics span, .live-tag { padding:6px 10px; border-radius:999px; background: rgba(255,255,255,0.82); box-shadow: var(--shadow-inset); }
+    .live-room-tags { display:flex; flex-wrap:wrap; gap:8px; }
+    .live-subject { font-size:.92rem; color:#22314b; }
+    .live-room-cta { width:100%; margin-top:auto; }
     @media (max-width: 920px) {{
       .hero-shell, .content-grid {{ grid-template-columns: 1fr; }}
       .shell {{ padding: 18px 14px 42px; }}
