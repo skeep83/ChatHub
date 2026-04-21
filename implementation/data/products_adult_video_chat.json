@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Stripchat",
+    "category": "adult video chat",
+    "best_for": ["broad cam discovery", "private shows", "mainstream cam users"],
+    "strengths": ["large model selection", "strong private show discovery", "high market visibility"],
+    "weaknesses": ["quality varies", "mainstream marketplace feel"],
+    "pricing_note": "token-based spend varies by performer and session",
+    "source_url": "https://stripchat.com/"
+  },
+  {
+    "name": "Chaturbate",
+    "category": "adult video chat",
+    "best_for": ["broad free-to-paid funnel", "discovery-heavy users", "public room browsing"],
+    "strengths": ["huge awareness", "broad traffic volume", "easy discovery"],
+    "weaknesses": ["less premium feel", "private experience depends heavily on performer"],
+    "pricing_note": "token-based spend varies by performer and interaction",
+    "source_url": "https://chaturbate.com/"
+  },
+  {
+    "name": "LiveJasmin",
+    "category": "adult video chat",
+    "best_for": ["premium private chat", "higher-end experience", "quality-first buyers"],
+    "strengths": ["premium positioning", "private show focus", "stronger luxury feel"],
+    "weaknesses": ["can be pricier", "less broad-discovery oriented"],
+    "pricing_note": "premium pricing posture, usually above mass-market cam platforms",
+    "source_url": "https://www.livejasmin.com/"
+  },
+  {
+    "name": "Flirt4Free",
+    "category": "adult video chat",
+    "best_for": ["private chat buyers", "premium cam sessions", "users comparing classic premium brands"],
+    "strengths": ["private-session focus", "premium positioning", "long-standing brand"],
+    "weaknesses": ["smaller mainstream awareness than top mass-market sites", "premium pricing can narrow fit"],
+    "pricing_note": "premium pricing posture, usually more relevant for intentional private-spend users",
+    "source_url": "https://www.flirt4free.com/"
+  }
+]
