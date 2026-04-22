@@ -175,8 +175,34 @@ def render_section(heading: str, lines: list[str]) -> str:
         return f"<section class='{classes[section_type]}'>{heading_html}{render_product_cards(lines)}</section>"
 
     if section_type == 'live_rooms':
-        cards = [render_line(line) for line in lines if line.strip().startswith('CB-LIVE-CARD::')]
+        cards = [render_line(line) for line in lines if line.strip().startswith(('CB-LIVE-CARD::', 'LJ-VIDEO-CARD::')) or 'https://ecdwm.com/embed/lf?' in line]
         return f"<section class='{classes[section_type]}'>{heading_html}<div class='live-room-grid'>{''.join(cards)}</div></section>"
+
+    if section_type == 'offer':
+        cards = []
+        for line in lines:
+            text = line.strip()
+            if not text.startswith('- '):
+                continue
+            match = re.search(r'\[(.*?)\]\((https?://[^\)]+)\)', text)
+            if not match:
+                continue
+            label = match.group(1).strip()
+            href = match.group(2).strip()
+            product = 'Offer'
+            lower = label.lower()
+            if 'stripchat' in lower:
+                product = 'Stripchat'
+            elif 'chaturbate' in lower:
+                product = 'Chaturbate'
+            elif 'livejasmin' in lower:
+                product = 'LiveJasmin'
+            elif 'flirt4free' in lower:
+                product = 'Flirt4Free'
+            cards.append(
+                f"<article class='offer-card'><div class='offer-meta'>{html.escape(product)}</div><h3>{html.escape(label)}</h3><a class='button button-primary offer-cta' href='{html.escape(href)}' target='_blank' rel='nofollow noopener'>Open offer</a></article>"
+            )
+        return f"<section id='offers' class='{classes[section_type]}'>{heading_html}<div class='offer-grid'>{''.join(cards)}</div></section>"
 
     body: list[str] = []
     list_buffer: list[str] = []
@@ -328,6 +354,11 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     .soft-list {{ margin: 0; padding-left: 20px; color: #eadff8; }}
     .soft-list li {{ margin-bottom: 8px; }}
     .footer-card {{ margin-top: 24px; padding: 18px 22px; border-radius: 22px; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color: var(--muted); }}
+    .offer-grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:18px; }}
+    .offer-card {{ padding:20px; border-radius:22px; background: rgba(44,31,67,0.98); border:1px solid var(--border); box-shadow: var(--shadow-inset); display:flex; flex-direction:column; gap:12px; transition: transform .18s ease, border-color .18s ease; }}
+    .offer-card:hover {{ border-color: rgba(255,255,255,0.16); transform: translateY(-2px); }}
+    .offer-meta {{ font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:#ff86bf; }}
+    .offer-cta {{ width:100%; margin-top:auto; }}
     .product-grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:18px; }}
     .product-card {{ padding: 18px; border-radius: 20px; background: rgba(44,31,67,0.95); box-shadow: var(--shadow-inset); border:1px solid var(--border); transition: transform .18s ease, border-color .18s ease; }}
     .product-card h3 {{ margin-top:0; margin-bottom:12px; font-size: 1.08rem; }}
