@@ -33,7 +33,7 @@ The feature comparison should focus on the actual browsing and chat experience, 
 Pricing should be judged by token spend, premium feel, and how quickly each site pushes you toward paid interaction.
 
 ## Best fit by scenario
-Different products win when the business priorities change, so the page should make those scenario boundaries obvious.
+Different sites win when browsing intent changes, so the page should make those scenario boundaries obvious.
 
 ## Call to action
 See the recommended tools and compare the best fit for your business.
