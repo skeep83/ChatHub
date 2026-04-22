@@ -205,8 +205,8 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     if sections and sections[0][1]:
         summary = next((line for line in sections[0][1] if line.strip()), "")
     hero = f"""
-    <section class=\"hero-shell\">
-      <div class=\"hero-copy\">
+    <section class=\"hero-shell hero-shell-premium\">
+      <div class=\"hero-copy hero-copy-premium\">
         <div class=\"eyebrow\">DirtyChatHub • adult comparison guide</div>
         <h1>{html.escape(title)}</h1>
         <p class=\"hero-summary\">{render_inline(summary)}</p>
@@ -215,11 +215,16 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
           <a class=\"button button-secondary\" href=\"/\">Explore more guides</a>
         </div>
       </div>
-      <aside class=\"hero-card\">
+      <aside class=\"hero-card hero-card-premium\">
         <div class=\"metric\"><span>Page goal</span><strong>Shortlist the right room style faster</strong></div>
         <div class=\"metric\"><span>Fit</span><strong>Mainstream discovery vs private premium</strong></div>
         <div class=\"metric\"><span>Use mode</span><strong>Compare first, click second</strong></div>
       </aside>
+    </section>
+    <section class=\"trust-strip trust-strip-inner\">
+      <div class=\"trust-item\"><strong>Commercial first</strong><p>Built to move from browsing intent into a shortlist, not bury users under filler.</p></div>
+      <div class=\"trust-item\"><strong>Live plus editorial</strong><p>Static comparison structure paired with live room and offer layers where they help.</p></div>
+      <div class=\"trust-item\"><strong>Cleaner buying paths</strong><p>Use the offer and comparison blocks after the fit is clear, not before.</p></div>
     </section>
     """
 
@@ -272,23 +277,26 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     }}
     a {{ color: #ff8fc5; text-decoration: none; }}
     a:hover {{ text-decoration: underline; }}
-    .shell {{ max-width: 1120px; margin: 0 auto; padding: 28px 18px 60px; }}
+    .shell {{ max-width: 1180px; margin: 0 auto; padding: 28px 18px 60px; }}
     .topbar {{
       display: flex; justify-content: space-between; align-items: center; gap: 16px;
-      padding: 14px 18px; margin-bottom: 26px; border-radius: var(--radius-lg);
-      background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-soft); backdrop-filter: blur(14px) saturate(130%);
+      padding: 16px 20px; margin-bottom: 20px; border-radius: var(--radius-lg);
+      background: rgba(14,10,23,.55); border: 1px solid var(--border); box-shadow: var(--shadow-soft); backdrop-filter: blur(14px) saturate(130%);
     }}
     .brand strong {{ display:block; font-size:1rem; color: var(--text); }}
     .brand span, .topnav a {{ color: var(--muted); font-size: 0.95rem; }}
     .topnav {{ display:flex; gap:14px; flex-wrap: wrap; }}
     .hero-shell {{
-      display:grid; grid-template-columns: 1.5fr .9fr; gap: 22px; margin-bottom: 26px;
+      display:grid; grid-template-columns: 1.35fr .85fr; gap: 22px; margin-bottom: 24px;
     }}
+    .hero-shell-premium {{ align-items: stretch; }}
     .hero-copy, .hero-card, .panel, .footer-card {{
       background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-soft); backdrop-filter: blur(14px) saturate(130%);
     }}
     .hero-copy {{ padding: 34px; border-radius: 34px; }}
+    .hero-copy-premium {{ padding: 40px; }}
     .hero-card {{ padding: 24px; border-radius: 28px; display:flex; flex-direction:column; gap:14px; justify-content:center; }}
+    .hero-card-premium {{ display:grid; gap:14px; align-content:start; }}
     .eyebrow {{ color: #ff86bf; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }}
     h1 {{ font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.02; margin: 14px 0 18px; letter-spacing: -0.04em; }}
     h2 {{ margin: 0 0 16px; font-size: 1.35rem; letter-spacing: -0.02em; }}
@@ -306,10 +314,13 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     .metric {{ padding: 16px 18px; border-radius: 20px; background: var(--surface-strong); box-shadow: var(--shadow-inset); border:1px solid var(--border); }}
     .metric span {{ display:block; font-size:.76rem; text-transform: uppercase; letter-spacing:.05em; color: var(--muted); margin-bottom: 6px; }}
     .metric strong {{ font-size:1rem; }}
-    .content-grid {{ display:grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 22px; }}
+    .trust-strip {{ display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; padding:18px; margin: 0 0 18px; background: var(--surface); border:1px solid var(--border); box-shadow: var(--shadow-soft); border-radius:28px; backdrop-filter: blur(14px) saturate(130%); }}
+    .trust-item {{ padding:14px 16px; border-radius:18px; background: var(--surface-strong); border:1px solid var(--border); }}
+    .trust-item strong {{ display:block; margin-bottom:6px; }}
+    .content-grid {{ display:grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 22px; }}
     .main-col {{ display:flex; flex-direction:column; gap: 18px; }}
     .sidebar {{ display:flex; flex-direction:column; gap: 18px; }}
-    .panel {{ padding: 24px; border-radius: 24px; }}
+    .panel {{ padding: 26px; border-radius: 24px; backdrop-filter: blur(16px); transition: transform .18s ease, border-color .18s ease; }}
     .panel-soft {{ background: rgba(28,20,43,0.92); }}
     .panel-accent {{ background: linear-gradient(145deg, rgba(255,79,163,0.14), rgba(138,92,255,0.14)); }}
     .panel-offer {{ background: linear-gradient(145deg, rgba(255,79,163,0.18), rgba(138,92,255,0.22)); }}
@@ -317,14 +328,14 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     .soft-list {{ margin: 0; padding-left: 20px; color: #eadff8; }}
     .soft-list li {{ margin-bottom: 8px; }}
     .footer-card {{ margin-top: 24px; padding: 18px 22px; border-radius: 22px; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color: var(--muted); }}
-    .product-grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; }}
-    .product-card {{ padding: 18px; border-radius: 20px; background: rgba(44,31,67,0.95); box-shadow: var(--shadow-inset); border:1px solid var(--border); }}
-    .product-card h3 {{ margin-top:0; margin-bottom:12px; }}
+    .product-grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:18px; }}
+    .product-card {{ padding: 18px; border-radius: 20px; background: rgba(44,31,67,0.95); box-shadow: var(--shadow-inset); border:1px solid var(--border); transition: transform .18s ease, border-color .18s ease; }}
+    .product-card h3 {{ margin-top:0; margin-bottom:12px; font-size: 1.08rem; }}
     .product-body p {{ margin-bottom:8px; }}
     .site-index {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 22px; }}
     .index-card {{ padding: 18px; border-radius: 20px; background: var(--surface); border:1px solid var(--border); box-shadow: var(--shadow-soft); backdrop-filter: blur(14px) saturate(130%); }}
-    .live-room-grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; }}
-    .live-room-card {{ overflow:hidden; border-radius:22px; background: rgba(44,31,67,0.95); box-shadow: var(--shadow-inset); display:flex; flex-direction:column; border:1px solid var(--border); }}
+    .live-room-grid {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:18px; }}
+    .live-room-card {{ overflow:hidden; border-radius:22px; background: rgba(44,31,67,0.95); box-shadow: var(--shadow-inset); display:flex; flex-direction:column; border:1px solid var(--border); transition: transform .18s ease, border-color .18s ease; }}
     .live-room-thumb {{ display:block; aspect-ratio: 4 / 3; background: #22182f; }}
     .live-room-thumb img {{ width:100%; height:100%; object-fit:cover; display:block; }}
     .live-room-body {{ padding:16px; display:flex; flex-direction:column; gap:10px; }}
@@ -337,10 +348,11 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     .lj-widget-shell {{ margin-top: 10px; }}
     .lj-widget-frame {{ width:100%; min-height:300px; border-radius:18px; overflow:hidden; background:#22182f; border:1px solid var(--border); }}
     .panel iframe {{ width:100%; border:0; border-radius:18px; }}
+    .live-room-card:hover, .product-card:hover, .panel:hover {{ border-color: rgba(255,255,255,0.16); transform: translateY(-2px); }}
     @media (max-width: 920px) {{
-      .hero-shell, .content-grid {{ grid-template-columns: 1fr; }}
+      .hero-shell, .content-grid, .trust-strip {{ grid-template-columns: 1fr; }}
       .shell {{ padding: 18px 14px 42px; }}
-      .hero-copy {{ padding: 24px; }}
+      .hero-copy, .hero-copy-premium {{ padding: 24px; }}
     }}
   </style>
   {ga4_snippet()}
