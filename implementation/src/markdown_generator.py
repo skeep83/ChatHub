@@ -25,9 +25,9 @@ def best_of_sections(page: dict) -> list[str]:
     keyword = page['primary_keyword']
     audience = page['audience']
     subtype = page.get('page_subtype', 'crm')
-    overview = f"The best choice for {keyword} should help {audience} make a shortlist quickly, not trap them in generic software-list content. The real goal is to find the strongest fit for day-to-day workflow, team size, and commercial priorities."
-    how_to_choose = 'Start by identifying whether your main problem is field workflow, sales pipeline, dispatch complexity, or finance/admin drag. Then eliminate tools built for a very different operating model.'
-    final_recommendation = 'The best option should be the one that improves execution fastest with the least operational friction, not the one with the longest feature list.'
+    overview = f"The best choice for {keyword} should help {audience} make a shortlist quickly, not trap them in thin affiliate filler. The real goal is to find the cam site that best matches browsing style, private-show intent, and spending comfort."
+    how_to_choose = 'Start by deciding whether you want mainstream room discovery, premium private-chat polish, mobile-friendly browsing, or more anonymous entry points. Then cut any site that serves a very different experience.'
+    final_recommendation = 'The best option should be the one that feels easiest to use and closest to your actual chat intent, not just the one with the biggest name.'
     if subtype == 'fsm':
         overview = 'The best field service management stack for a small business should reduce quoting, scheduling, dispatch, invoicing, and communication friction without pushing the team into enterprise-style overhead.'
         how_to_choose = 'Start with field workflow first. If dispatch, scheduling, and technician coordination are core problems, prioritize FSM tools before broader CRM platforms.'
@@ -75,14 +75,14 @@ def best_of_sections(page: dict) -> list[str]:
 def comparison_sections(page: dict) -> list[str]:
     keyword = page['primary_keyword']
     subtype = page.get('page_subtype', 'peer_fsm')
-    overview = f"{keyword.title()} is usually not about picking the platform with the most features. It is about choosing the tool that fits the business model, team size, and workflow pressure with the least wasted motion."
-    quick_verdict = 'A strong comparison should tell you quickly which option is safer for smaller teams, which one is better for heavier workflow needs, and whether either tool is solving the wrong problem entirely.'
+    overview = f"{keyword.title()} is not about who has the longest feature list. It is about which cam site gives you the better mix of discovery, private-show quality, room energy, and overall value."
+    quick_verdict = 'A strong comparison should tell you quickly which option is better for mainstream browsing, which feels more premium, and whether either one is mismatched to the kind of session you actually want.'
     if subtype == 'simple_vs_complex':
-        overview = f"{keyword.title()} is usually a decision between easier adoption and heavier operational depth. Most smaller businesses should treat this as a complexity test, not a feature-count contest."
-        quick_verdict = 'The winning choice usually comes down to whether the team needs a cleaner operating system now or genuinely needs enterprise-style control.'
+        overview = f"{keyword.title()} is usually a decision between easier browsing and a more premium private-chat feel. Most users should treat this as an experience-fit test, not a feature-count contest."
+        quick_verdict = 'The winning choice usually comes down to whether you want easier discovery now or a more premium room and payout feel.'
     elif subtype == 'crm_vs_fsm':
-        overview = f"{keyword.title()} is often a comparison between a broader CRM path and a field-service-first workflow tool. These are not identical categories, so the right choice depends on the real bottleneck in the business."
-        quick_verdict = 'The fastest good decision is figuring out whether your bigger problem is field execution or sales and pipeline management.'
+        overview = f"{keyword.title()} is often a comparison between broader discovery and a more private-session-focused path. These are not identical experiences, so the right choice depends on what you want to happen after the click."
+        quick_verdict = 'The fastest good decision is figuring out whether your bigger priority is room variety or a more premium private-session feel.'
     return [
         f"# {page['title']}",
         '',
@@ -92,19 +92,19 @@ def comparison_sections(page: dict) -> list[str]:
         overview,
         '',
         '## Who this is for',
-        f"This page is for {page['audience']} who want a fast answer on which tool belongs on the shortlist and which one probably does not.",
+        f"This page is for {page['audience']} who want a fast answer on which site belongs on the shortlist and which one probably does not.",
         '',
         '## Key considerations',
-        'The comparison should focus on operational fit, ease of adoption, quoting and scheduling depth, communication flow, pricing posture, and how much complexity the team can realistically absorb.',
+        'The comparison should focus on room discovery, private-show feel, performer mix, pricing pressure, and how each site behaves once you move beyond casual browsing.',
         '',
         '## Quick verdict',
         quick_verdict,
         '',
         '## Feature comparison',
-        'The feature comparison should focus on the buying decision, not generic checklists. Buyers care about whether the software actually improves day-to-day work.',
+        'The feature comparison should focus on the actual browsing and chat experience, not generic checklist padding.',
         '',
         '## Pricing',
-        'Pricing should be judged by fit and implementation drag, not just the headline subscription number.',
+        'Pricing should be judged by token spend, premium feel, and how quickly each site pushes you toward paid interaction.',
         '',
         '## Best fit by scenario',
         'Different products win when the business priorities change, so the page should make those scenario boundaries obvious.',
