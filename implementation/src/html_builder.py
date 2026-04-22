@@ -84,6 +84,12 @@ def render_line(line: str) -> str:
         return ""
     if line.startswith("<!-- chaturbate-live-grid") or line.startswith("<!-- livejasmin-video-grid") or line.startswith("<!-- livejasmin-widget"):
         return ""
+    if line.strip().startswith('<div class="lj-widget-shell">'):
+        return "<div class='lj-widget-shell'>"
+    if line.strip().startswith('<div id="object_container_'):
+        return line.strip()
+    if line.strip() == '</div>':
+        return '</div>'
     if 'https://ecdwm.com/embed/lf?' in line:
         return line
     if line.startswith("LJ-VIDEO-CARD::"):
