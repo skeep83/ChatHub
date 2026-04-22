@@ -9,17 +9,17 @@
   <title>Contact | DirtyChatHub</title>
   <style>
     :root {
-      --bg: #e9eef7;
-      --bg-2: #f4f7fb;
-      --surface: rgba(255,255,255,0.58);
-      --surface-strong: rgba(255,255,255,0.82);
-      --text: #152033;
-      --muted: #60708a;
-      --accent: #5b7cff;
-      --accent-2: #7f5cff;
-      --shadow-soft: 14px 14px 30px rgba(163,177,198,0.34), -12px -12px 28px rgba(255,255,255,0.9);
-      --shadow-inset: inset 6px 6px 12px rgba(163,177,198,0.22), inset -6px -6px 12px rgba(255,255,255,0.85);
-      --border: rgba(255,255,255,0.55);
+      --bg: #0d0916;
+      --bg-2: #181126;
+      --surface: rgba(21,15,34,0.8);
+      --surface-strong: rgba(35,24,54,0.96);
+      --text: #f6efff;
+      --muted: #b8adc9;
+      --accent: #ff4fa3;
+      --accent-2: #8a5cff;
+      --shadow-soft: 0 24px 70px rgba(0,0,0,0.34);
+      --shadow-inset: inset 0 1px 0 rgba(255,255,255,0.05);
+      --border: rgba(255,255,255,0.08);
       --radius-xl: 28px;
       --radius-lg: 22px;
       --radius-md: 16px;
@@ -31,13 +31,13 @@
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
       background:
-        radial-gradient(circle at top left, rgba(115,145,255,0.22), transparent 28%),
-        radial-gradient(circle at top right, rgba(127,92,255,0.18), transparent 24%),
+        radial-gradient(circle at top left, rgba(255,79,163,0.16), transparent 28%),
+        radial-gradient(circle at top right, rgba(138,92,255,0.18), transparent 24%),
         linear-gradient(180deg, var(--bg-2), var(--bg));
       min-height: 100vh;
       line-height: 1.65;
     }
-    a { color: var(--accent); text-decoration: none; }
+    a { color: #ff8fc5; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .shell { max-width: 1120px; margin: 0 auto; padding: 28px 18px 60px; }
     .topbar {
@@ -45,7 +45,7 @@
       padding: 14px 18px; margin-bottom: 26px; border-radius: var(--radius-lg);
       background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-soft); backdrop-filter: blur(14px) saturate(130%);
     }
-    .brand strong { display:block; font-size:1rem; }
+    .brand strong { display:block; font-size:1rem; color: var(--text); }
     .brand span, .topnav a { color: var(--muted); font-size: 0.95rem; }
     .topnav { display:flex; gap:14px; flex-wrap: wrap; }
     .hero-shell {
@@ -56,47 +56,50 @@
     }
     .hero-copy { padding: 34px; border-radius: 34px; }
     .hero-card { padding: 24px; border-radius: 28px; display:flex; flex-direction:column; gap:14px; justify-content:center; }
-    .eyebrow { color: var(--accent-2); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; font-size: .78rem; }
+    .eyebrow { color: #ff86bf; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }
     h1 { font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.02; margin: 14px 0 18px; letter-spacing: -0.04em; }
     h2 { margin: 0 0 16px; font-size: 1.35rem; letter-spacing: -0.02em; }
     h3 { margin: 18px 0 8px; font-size: 1.02rem; }
     .hero-summary { color: var(--muted); font-size: 1.05rem; max-width: 62ch; }
+    .section-heading { margin-bottom: 16px; }
+    .section-kicker { display:inline-block; margin-bottom:8px; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:#ff86bf; }
     .hero-actions { display:flex; gap:12px; flex-wrap:wrap; margin-top: 24px; }
     .button {
       display:inline-flex; align-items:center; justify-content:center; padding: 12px 18px; border-radius: 999px; font-weight: 700;
       border: 1px solid rgba(255,255,255,0.7); box-shadow: var(--shadow-soft); text-decoration:none;
     }
-    .button-primary { background: linear-gradient(135deg, #6b8cff, #7f5cff); color: white; }
-    .button-secondary { background: rgba(255,255,255,0.7); color: var(--text); }
-    .metric { padding: 16px 18px; border-radius: 20px; background: var(--surface-strong); box-shadow: var(--shadow-inset); }
+    .button-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white; border-color: transparent; }
+    .button-secondary { background: rgba(255,255,255,0.04); color: var(--text); border-color: var(--border); }
+    .metric { padding: 16px 18px; border-radius: 20px; background: var(--surface-strong); box-shadow: var(--shadow-inset); border:1px solid var(--border); }
     .metric span { display:block; font-size:.76rem; text-transform: uppercase; letter-spacing:.05em; color: var(--muted); margin-bottom: 6px; }
     .metric strong { font-size:1rem; }
     .content-grid { display:grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 22px; }
     .main-col { display:flex; flex-direction:column; gap: 18px; }
     .sidebar { display:flex; flex-direction:column; gap: 18px; }
     .panel { padding: 24px; border-radius: 24px; }
-    .panel-soft { background: rgba(255,255,255,0.67); }
-    .panel-accent { background: linear-gradient(145deg, rgba(107,140,255,0.16), rgba(255,255,255,0.7)); }
-    p { margin: 0 0 10px; color: #22314b; }
-    .soft-list { margin: 0; padding-left: 20px; color: #22314b; }
+    .panel-soft { background: rgba(28,20,43,0.92); }
+    .panel-accent { background: linear-gradient(145deg, rgba(255,79,163,0.14), rgba(138,92,255,0.14)); }
+    .panel-offer { background: linear-gradient(145deg, rgba(255,79,163,0.18), rgba(138,92,255,0.22)); }
+    p { margin: 0 0 10px; color: #eadff8; }
+    .soft-list { margin: 0; padding-left: 20px; color: #eadff8; }
     .soft-list li { margin-bottom: 8px; }
     .footer-card { margin-top: 24px; padding: 18px 22px; border-radius: 22px; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color: var(--muted); }
     .product-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; }
-    .product-card { padding: 18px; border-radius: 20px; background: rgba(255,255,255,0.74); box-shadow: var(--shadow-inset); }
+    .product-card { padding: 18px; border-radius: 20px; background: rgba(44,31,67,0.95); box-shadow: var(--shadow-inset); border:1px solid var(--border); }
     .product-card h3 { margin-top:0; margin-bottom:12px; }
     .product-body p { margin-bottom:8px; }
     .site-index { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 22px; }
     .index-card { padding: 18px; border-radius: 20px; background: var(--surface); border:1px solid var(--border); box-shadow: var(--shadow-soft); backdrop-filter: blur(14px) saturate(130%); }
     .live-room-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; }
-    .live-room-card { overflow:hidden; border-radius:22px; background: rgba(255,255,255,0.78); box-shadow: var(--shadow-inset); display:flex; flex-direction:column; }
-    .live-room-thumb { display:block; aspect-ratio: 4 / 3; background: #d8deeb; }
+    .live-room-card { overflow:hidden; border-radius:22px; background: rgba(44,31,67,0.95); box-shadow: var(--shadow-inset); display:flex; flex-direction:column; border:1px solid var(--border); }
+    .live-room-thumb { display:block; aspect-ratio: 4 / 3; background: #22182f; }
     .live-room-thumb img { width:100%; height:100%; object-fit:cover; display:block; }
     .live-room-body { padding:16px; display:flex; flex-direction:column; gap:10px; }
     .live-room-body h3 { margin:0; }
     .live-room-metrics { display:flex; flex-wrap:wrap; gap:8px; font-size:.82rem; color: var(--muted); }
-    .live-room-metrics span, .live-tag { padding:6px 10px; border-radius:999px; background: rgba(255,255,255,0.82); box-shadow: var(--shadow-inset); }
+    .live-room-metrics span, .live-tag { padding:6px 10px; border-radius:999px; background: rgba(255,255,255,0.06); box-shadow: var(--shadow-inset); border:1px solid var(--border); }
     .live-room-tags { display:flex; flex-wrap:wrap; gap:8px; }
-    .live-subject { font-size:.92rem; color:#22314b; }
+    .live-subject { font-size:.92rem; color:var(--muted); }
     .live-room-cta { width:100%; margin-top:auto; }
     @media (max-width: 920px) {
       .hero-shell, .content-grid { grid-template-columns: 1fr; }
@@ -132,33 +135,33 @@
     
     <section class="hero-shell">
       <div class="hero-copy">
-        <div class="eyebrow">DirtyChatHub • 2026 comparison guide</div>
+        <div class="eyebrow">DirtyChatHub • adult comparison guide</div>
         <h1>Contact</h1>
         <p class="hero-summary">- factual corrections</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#offers">View offers</a>
-          <a class="button button-secondary" href="/">Explore guides</a>
+          <a class="button button-primary" href="#offers">See tracked offers</a>
+          <a class="button button-secondary" href="/">Explore more guides</a>
         </div>
       </div>
       <aside class="hero-card">
-        <div class="metric"><span>Focus</span><strong>Commercial intent</strong></div>
-        <div class="metric"><span>Site</span><strong>DirtyChatHub</strong></div>
-        <div class="metric"><span>Audience</span><strong>Adult video chat buyers</strong></div>
+        <div class="metric"><span>Page goal</span><strong>Shortlist the right room style faster</strong></div>
+        <div class="metric"><span>Fit</span><strong>Mainstream discovery vs private premium</strong></div>
+        <div class="metric"><span>Use mode</span><strong>Compare first, click second</strong></div>
       </aside>
     </section>
     
     <div class="content-grid">
       <main id="main-content" class="main-col" role="main">
-        <section class='panel'><h2>What to contact us about</h2><ul class='soft-list'><li>factual corrections</li><li>broken links</li><li>partnership or affiliate issues</li><li>content questions</li></ul></section><section class='panel'><h2>Decision shortcuts</h2><ul class='soft-list'><li>Prioritize all-round fit first, then decide whether mainstream discovery or premium private-chat matters more.</li><li>Do not mistake brand size for the best fit.</li><li>Eliminate options that do not match the user intent of the page.</li></ul></section><section class='panel'><h2>Site navigation</h2><ul class='soft-list'><li>[Home](/)</li><li>[About DirtyChatHub](/about-dirtychathub)</li><li>[Editorial Policy](/editorial-policy)</li><li>[Contact](/contact)</li></ul></section><section id='offers' class='panel panel-accent'><h2>Offers</h2><ul class='soft-list'><li><a href="https://example.com/aff/stripchat" target="_blank" rel="nofollow noopener">Try Stripchat</a></li><li><a href="https://chaturbate.com/in/?tour=grq0&amp;campaign=aoQgT&amp;track=skeepy83_general" target="_blank" rel="nofollow noopener">Try Chaturbate</a></li><li><a href="https://example.com/aff/livejasmin" target="_blank" rel="nofollow noopener">Try LiveJasmin</a></li><li><a href="https://example.com/aff/flirt4free" target="_blank" rel="nofollow noopener">Try Flirt4Free</a></li></ul></section>
+        <section class='panel'><div class='section-heading'><span class='section-kicker'>default</span><h2>What to contact us about</h2></div><ul class='soft-list'><li>factual corrections</li><li>broken links</li><li>partnership or affiliate issues</li><li>content questions</li></ul></section><section class='panel'><div class='section-heading'><span class='section-kicker'>default</span><h2>Decision shortcuts</h2></div><ul class='soft-list'><li>Prioritize all-round fit first, then decide whether mainstream discovery or premium private-chat matters more.</li><li>Do not mistake brand size for the best fit.</li><li>Eliminate options that do not match the user intent of the page.</li></ul></section><section class='panel'><div class='section-heading'><span class='section-kicker'>default</span><h2>Site navigation</h2></div><ul class='soft-list'><li>[Home](/)</li><li>[About DirtyChatHub](/about-dirtychathub)</li><li>[Editorial Policy](/editorial-policy)</li><li>[Contact](/contact)</li></ul></section><section id='offers' class='panel panel-offer'><div class='section-heading'><span class='section-kicker'>offer</span><h2>Offers</h2></div><ul class='soft-list'><li><a href="https://example.com/aff/stripchat" target="_blank" rel="nofollow noopener">Try Stripchat</a></li><li><a href="https://chaturbate.com/in/?tour=grq0&amp;campaign=aoQgT&amp;track=skeepy83_general" target="_blank" rel="nofollow noopener">Try Chaturbate</a></li><li><a href="https://example.com/aff/livejasmin" target="_blank" rel="nofollow noopener">Try LiveJasmin</a></li><li><a href="https://example.com/aff/flirt4free" target="_blank" rel="nofollow noopener">Try Flirt4Free</a></li></ul></section>
       </main>
       <aside class="sidebar">
         <section class="panel panel-soft">
-          <h2>How to use this page</h2>
-          <p>Start with the overview, scan the recommended platforms, then use the offer block only after the fit is clear.</p>
+          <div class="section-heading"><span class="section-kicker">reader flow</span><h2>How to use this page</h2></div>
+          <p>Start with the overview, skim the shortlist logic, then use the tracked offers only after the fit is clear.</p>
         </section>
         <section class="panel panel-accent">
-          <h2>Design direction</h2>
-          <p>Use the page to separate mainstream discovery platforms from premium private-chat options instead of clicking the first brand you recognize.</p>
+          <div class="section-heading"><span class="section-kicker">decision lens</span><h2>What matters most</h2></div>
+          <p>Use the page to separate mainstream discovery platforms from premium private-chat options instead of clicking the first familiar brand.</p>
         </section>
       </aside>
     </div>
