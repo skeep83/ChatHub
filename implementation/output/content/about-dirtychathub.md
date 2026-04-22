@@ -29,5 +29,5 @@ The goal is simple: help users compare adult video chat platforms without relyin
 
 - [Try Stripchat](https://example.com/aff/stripchat)
 - [Try Chaturbate](https://chaturbate.com/in/?tour=grq0&campaign=aoQgT&track=skeepy83_general)
-- [Try LiveJasmin](https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm%5Bpsid%5D=Skeepy83&prm%5Bpstool%5D=205_1&prm%5Bpsprogram%5D=pps&prm%5Bcampaign_id%5D=&subAffId=dch_general)
+- [Try LiveJasmin](https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm%5Bpsid%5D=Skeepy83&prm%5Bpstool%5D=205_1&prm%5Bpsprogram%5D=revs&prm%5Bcampaign_id%5D=&subAffId=dch_general)
 - [Try Flirt4Free](https://example.com/aff/flirt4free)

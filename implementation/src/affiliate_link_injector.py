@@ -53,7 +53,7 @@ def cta_overrides(page_type: str, subtype: str) -> dict[str, str]:
 
 
 def tracked_livejasmin_link(slug: str) -> str:
-    base = 'https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm[psid]=Skeepy83&prm[pstool]=205_1&prm[psprogram]=pps&prm[campaign_id]=&subAffId='
+    base = 'https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm[psid]=Skeepy83&prm[pstool]=205_1&prm[psprogram]=revs&prm[campaign_id]=&subAffId='
     parts = urlsplit(base)
     query = dict(parse_qsl(parts.query, keep_blank_values=True))
     query['subAffId'] = f'dch_{slug.replace("-", "_")[:48]}'

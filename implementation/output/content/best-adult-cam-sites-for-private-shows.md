@@ -144,5 +144,5 @@ This page should be reviewed before publication, especially if it carries affili
 
 - [Try Stripchat if you want the broadest all-round cam discovery experience](https://example.com/aff/stripchat)
 - [Try Chaturbate if you want the biggest mainstream free-to-paid browsing funnel](https://chaturbate.com/in/?tour=dU9X&campaign=aoQgT&track=skeepy83_best_adult_cam_sites_for_private_shows&signup_notice=1)
-- [Try LiveJasmin if you care more about premium private chat than mass-market volume](https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm%5Bpsid%5D=Skeepy83&prm%5Bpstool%5D=205_1&prm%5Bpsprogram%5D=pps&prm%5Bcampaign_id%5D=&subAffId=dch_best_adult_cam_sites_for_private_shows)
+- [Try LiveJasmin if you care more about premium private chat than mass-market volume](https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm%5Bpsid%5D=Skeepy83&prm%5Bpstool%5D=205_1&prm%5Bpsprogram%5D=revs&prm%5Bcampaign_id%5D=&subAffId=dch_best_adult_cam_sites_for_private_shows)
 - [Try Flirt4Free if you want a private-session-first premium option](https://example.com/aff/flirt4free)

@@ -130,5 +130,5 @@ This page should be reviewed before publication, especially if it carries affili
 
 - [Try Stripchat](https://example.com/aff/stripchat)
 - [Try Chaturbate](https://chaturbate.com/in/?tour=0G9g&campaign=aoQgT&track=skeepy83_private_adult_video_chat_for_couples)
-- [Try LiveJasmin](https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm%5Bpsid%5D=Skeepy83&prm%5Bpstool%5D=205_1&prm%5Bpsprogram%5D=pps&prm%5Bcampaign_id%5D=&subAffId=dch_private_adult_video_chat_for_couples)
+- [Try LiveJasmin](https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm%5Bpsid%5D=Skeepy83&prm%5Bpstool%5D=205_1&prm%5Bpsprogram%5D=revs&prm%5Bcampaign_id%5D=&subAffId=dch_private_adult_video_chat_for_couples)
 - [Try Flirt4Free](https://example.com/aff/flirt4free)
