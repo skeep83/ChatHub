@@ -382,9 +382,14 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     .live-room-tags {{ display:flex; flex-wrap:wrap; gap:8px; }}
     .live-subject {{ font-size:.92rem; color:var(--muted); }}
     .live-room-cta {{ width:100%; margin-top:auto; }}
-    .lj-widget-shell {{ margin-top: 10px; }}
-    .lj-widget-frame {{ width:100%; min-height:300px; border-radius:18px; overflow:hidden; background:#22182f; border:1px solid var(--border); }}
+    .lj-widget-shell {{ margin-top: 10px; grid-column: 1 / -1; }}
+    .lj-widget-frame {{ width:100%; min-height:300px; border-radius:18px; overflow:hidden; background:#22182f; border:1px solid var(--border); box-shadow: var(--shadow-inset); }}
     .panel iframe {{ width:100%; border:0; border-radius:18px; }}
+    .sidebar-link-list {{ display:flex; flex-direction:column; gap:12px; }}
+    .sidebar-link-card {{ display:block; padding:16px; border-radius:18px; background: rgba(44,31,67,0.95); border:1px solid var(--border); transition: transform .18s ease, border-color .18s ease; }}
+    .sidebar-link-card:hover {{ transform: translateY(-2px); border-color: rgba(255,255,255,0.16); text-decoration:none; }}
+    .sidebar-link-card strong {{ display:block; color: var(--text); margin-bottom:6px; }}
+    .sidebar-link-card span {{ color: var(--muted); font-size:.92rem; }}
     .live-room-card:hover, .product-card:hover, .panel:hover {{ border-color: rgba(255,255,255,0.16); transform: translateY(-2px); }}
     @media (max-width: 920px) {{
       .hero-shell, .content-grid, .trust-strip {{ grid-template-columns: 1fr; }}
@@ -404,6 +409,8 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
       </div>
       <nav class="topnav">
         <a href="/">Guides</a>
+        <a href="/best-adult-video-chat-sites">Best sites</a>
+        <a href="/best-private-cam-sites">Private cams</a>
         <a href="{html.escape(SITE_URL)}">Live site</a>
       </nav>
     </header>
@@ -420,6 +427,14 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
         <section class="panel panel-accent">
           <div class="section-heading"><span class="section-kicker">decision lens</span><h2>What matters most</h2></div>
           <p>Use the page to separate mainstream discovery platforms from premium private-chat options instead of clicking the first familiar brand.</p>
+        </section>
+        <section class="panel panel-soft sidebar-nav-panel">
+          <div class="section-heading"><span class="section-kicker">next clicks</span><h2>Keep exploring</h2></div>
+          <div class="sidebar-link-list">
+            <a class="sidebar-link-card" href="/best-adult-video-chat-sites"><strong>Best adult video chat sites</strong><span>Start broad, then narrow down.</span></a>
+            <a class="sidebar-link-card" href="/best-private-cam-sites"><strong>Best private cam sites</strong><span>Better for premium private intent.</span></a>
+            <a class="sidebar-link-card" href="/stripchat-vs-chaturbate"><strong>Stripchat vs Chaturbate</strong><span>Fast side-by-side mainstream comparison.</span></a>
+          </div>
         </section>
       </aside>
     </div>
