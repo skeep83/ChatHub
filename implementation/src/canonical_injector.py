@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-BASE_URL = 'https://servicehub.md/'
+BASE_URL = 'https://dirtychathub.com/'
 
 
 def main() -> None:
