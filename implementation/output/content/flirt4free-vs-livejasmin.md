@@ -127,5 +127,10 @@ This page should be reviewed before publication, especially if it carries affili
 
 - [Try Stripchat](https://example.com/aff/stripchat)
 - [Try Chaturbate](https://chaturbate.com/in/?tour=grq0&campaign=aoQgT&track=skeepy83_flirt4free_vs_livejasmin)
-- [Try LiveJasmin](https://example.com/aff/livejasmin)
+- [Try LiveJasmin](https://www.livejasmin.com/?psid=Skeepy83)
 - [Try Flirt4Free](https://example.com/aff/flirt4free)
+
+## LiveJasmin featured videos right now
+<!-- livejasmin-video-grid -->
+
+

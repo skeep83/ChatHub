@@ -144,16 +144,16 @@ This page should be reviewed before publication, especially if it carries affili
 
 - [Try Stripchat if you want the broadest all-round cam discovery experience](https://example.com/aff/stripchat)
 - [Try Chaturbate if you want the biggest mainstream free-to-paid browsing funnel](https://chaturbate.com/in/?tour=IGtl&campaign=aoQgT&track=skeepy83_best_anonymous_adult_video_chat)
-- [Try LiveJasmin if you care more about premium private chat than mass-market volume](https://example.com/aff/livejasmin)
+- [Try LiveJasmin if you care more about premium private chat than mass-market volume](https://www.livejasmin.com/?psid=Skeepy83)
 - [Try Flirt4Free if you want a private-session-first premium option](https://example.com/aff/flirt4free)
 
 ## Live rooms to explore right now
 <!-- chaturbate-live-grid -->
 
-CB-LIVE-CARD::cb15||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=cb15||https://thumb.live.mmcdn.com/ri/cb15.jpg||4787||7585||public||cb15||CB15 Live – Your Front-Row Seat to the Anniversary Party with your host MaryMoody #cb15
-CB-LIVE-CARD::eli <3||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=elisparadisex||https://thumb.live.mmcdn.com/ri/elisparadisex.jpg||3741||135289||public||18|teen|young|lovense||home alone ;3  #18 #teen #young #lovense //  naked stream  [0 tokens remaining]
-CB-LIVE-CARD::Lily||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=x_lily_x||https://thumb.live.mmcdn.com/ri/x_lily_x.jpg||2554||1286254||public||natural|hush|tease|domi||MAN TRIED TO SELL ME A COFFIN YESTERDAY. I SAID THAT'S THE LAST THING I NEED.  #natural #hush #tease #domi #british
-CB-LIVE-CARD::Eimi <3 Do you want to know how I smell? emyiishop.shop||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=emyii||https://thumb.live.mmcdn.com/ri/emyii.jpg||3464||1292665||public||squirt|latina|bigboobs|fit||Make me squirt papi💦.  My favorite patterns <3 98,114,222,555,1111. Tip 2000 for insta squirt 💦 #squirt, #latina, #bigboobs , #fit, #smile, #muscle, #lush
-CB-LIVE-CARD::Patricia López||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=crazypaty||https://thumb.live.mmcdn.com/ri/crazypaty.jpg||2323||875609||public||cb15||🧡 IT'S #CB15 Aniversary! and /WILDTEQUILLA is here! 💦 WINER WILL SQUIRT💦 💓 FAV TIPS: 15, 150, 1500, 15000 💓 - Multi Goal: CB15 ANIVERSARY [15000tk each Goal]
-CB-LIVE-CARD::Your dolls are the only original ones.||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=your_dolls||https://thumb.live.mmcdn.com/ri/your_dolls.jpg||630||526084||private||cb15|18|anal|lesbian||5some bi- Facefuck all girls  (2 NEW GIRLS Angelina and Sharon )  (PVT IS OPEN) #cb15  #18 #anal #lesbian #new #bigboobs #skynny #cum #squirt
+CB-LIVE-CARD::cb15||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=cb15||https://thumb.live.mmcdn.com/ri/cb15.jpg||5794||8087||public||cb15||CB15 Live – Your Front-Row Seat to the Anniversary Party with your host MaryMoody #cb15
+CB-LIVE-CARD::eli <3||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=elisparadisex||https://thumb.live.mmcdn.com/ri/elisparadisex.jpg||3660||135500||private||18|teen|young|lovense||home alone ;3  #18 #teen #young #lovense //  naked stream  [0 tokens remaining]
+CB-LIVE-CARD::Lily||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=x_lily_x||https://thumb.live.mmcdn.com/ri/x_lily_x.jpg||2375||1286274||public||natural|hush|tease|domi||MAN TRIED TO SELL ME A COFFIN YESTERDAY. I SAID THAT'S THE LAST THING I NEED.  #natural #hush #tease #domi #british
+CB-LIVE-CARD::Scar||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=scarlettgracevip||https://thumb.live.mmcdn.com/ri/scarlettgracevip.jpg||1531||241646||public||new|teen|hot|young||cum & yap 💋 Ass worship [2022 tokens left] #new #teen #hot #young #petite
+CB-LIVE-CARD::Patricia López||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=crazypaty||https://thumb.live.mmcdn.com/ri/crazypaty.jpg||2114||875647||public||cb15||🧡 IT'S #CB15 Aniversary! and /WILDTEQUILLA is here! 💦 WINER WILL SQUIRT💦 💓 FAV TIPS: 15, 150, 1500, 15000 💓 - Multi Goal: CB15 ANIVERSARY [15000tk each Goal]
+CB-LIVE-CARD::Your dolls are the only original ones.||https://chaturbate.com/in/?tour=LQps&campaign=aoQgT&track=default&room=your_dolls||https://thumb.live.mmcdn.com/ri/your_dolls.jpg||551||526081||private||cb15|18|anal|lesbian||5some bi- Facefuck all girls  (2 NEW GIRLS Angelina and Sharon )  (PVT IS OPEN) #cb15  #18 #anal #lesbian #new #bigboobs #skynny #cum #squirt
 

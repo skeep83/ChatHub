@@ -123,6 +123,6 @@ This page should be reviewed before publication, especially if it carries affili
 ## Offers
 
 - [Try Stripchat if you want a stronger all-round alternative with broad model choice](https://example.com/aff/stripchat)
-- [Try LiveJasmin if you want a more premium private-chat alternative](https://example.com/aff/livejasmin)
+- [Try LiveJasmin if you want a more premium private-chat alternative](https://www.livejasmin.com/?psid=Skeepy83)
 - [Try Chaturbate if you prefer mainstream discovery and public-room browsing](https://chaturbate.com/in/?tour=grq0&campaign=aoQgT&track=skeepy83_adult_video_chat_alternatives)
 - [Try Flirt4Free if you want a more premium private-show path](https://example.com/aff/flirt4free)

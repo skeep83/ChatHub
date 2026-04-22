@@ -25,5 +25,5 @@ DirtyChatHub aims to publish commercially aware but genuinely useful adult video
 
 - [Try Stripchat](https://example.com/aff/stripchat)
 - [Try Chaturbate](https://chaturbate.com/in/?tour=grq0&campaign=aoQgT&track=skeepy83_general)
-- [Try LiveJasmin](https://example.com/aff/livejasmin)
+- [Try LiveJasmin](https://www.livejasmin.com/?psid=Skeepy83)
 - [Try Flirt4Free](https://example.com/aff/flirt4free)

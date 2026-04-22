@@ -82,8 +82,24 @@ def render_inline(text: str) -> str:
 def render_line(line: str) -> str:
     if not line.strip():
         return ""
-    if line.startswith("<!-- chaturbate-live-grid"):
+    if line.startswith("<!-- chaturbate-live-grid") or line.startswith("<!-- livejasmin-video-grid"):
         return ""
+    if line.startswith("LJ-VIDEO-CARD::"):
+        raw = line.split("LJ-VIDEO-CARD::", 1)[1]
+        title, href, image, duration, quality, hd_label, tags, uploader = (raw.split("||") + [""] * 8)[:8]
+        tag_html = ''.join(f"<span class='live-tag'>{html.escape(tag.strip())}</span>" for tag in tags.split('|') if tag.strip())
+        image_html = f"<img src='{html.escape(image)}' alt='{html.escape(title)} preview' loading='lazy'>" if image else ""
+        duration_label = f"{duration} sec" if duration and duration != '0' else "Clip"
+        return (
+            "<article class='live-room-card livejasmin-card'>"
+            f"<a class='live-room-thumb' href='{html.escape(href)}' target='_blank' rel='nofollow noopener'>{image_html}</a>"
+            "<div class='live-room-body'>"
+            f"<h3>{html.escape(title)}</h3>"
+            f"<div class='live-room-metrics'><span>{html.escape(uploader or 'LiveJasmin')}</span><span>{html.escape(quality.upper())}</span><span>{html.escape(duration_label)}</span></div>"
+            f"<div class='live-room-tags'>{tag_html}</div>"
+            f"<a class='button button-primary live-room-cta' href='{html.escape(href)}' target='_blank' rel='nofollow noopener'>Watch on LiveJasmin</a>"
+            "</div></article>"
+        )
     if line.startswith("CB-LIVE-CARD::"):
         raw = line.split("CB-LIVE-CARD::", 1)[1]
         name, href, image, viewers, followers, show, tags, subject = (raw.split("||") + [""] * 8)[:8]
@@ -112,7 +128,7 @@ def classify_section(heading: str) -> str:
     name = heading.lower()
     if heading == "Offers":
         return "offer"
-    if 'live rooms' in name:
+    if 'live rooms' in name or 'livejasmin featured videos' in name or 'premium livejasmin picks' in name:
         return 'live_rooms'
     if "recommended products" in name or "top picks" in name:
         return "products"

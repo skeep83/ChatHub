@@ -11,27 +11,12 @@
   },
   {
     "product": "LiveJasmin",
-    "placeholder_url": "https://example.com/aff/livejasmin",
+    "placeholder_url": "https://www.livejasmin.com/?psid=Skeepy83",
     "cta": "Try LiveJasmin"
   },
   {
     "product": "Flirt4Free",
     "placeholder_url": "https://example.com/aff/flirt4free",
     "cta": "Try Flirt4Free"
-  },
-  {
-    "product": "Zoho CRM",
-    "placeholder_url": "https://www.zoho.com/crm/",
-    "cta": "Explore Zoho CRM"
-  },
-  {
-    "product": "monday.com",
-    "placeholder_url": "https://monday.com/crm",
-    "cta": "Explore monday CRM"
-  },
-  {
-    "product": "Pipedrive",
-    "placeholder_url": "https://www.pipedrive.com/",
-    "cta": "Explore Pipedrive"
   }
 ]
