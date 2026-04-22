@@ -82,8 +82,10 @@ def render_inline(text: str) -> str:
 def render_line(line: str) -> str:
     if not line.strip():
         return ""
-    if line.startswith("<!-- chaturbate-live-grid") or line.startswith("<!-- livejasmin-video-grid"):
+    if line.startswith("<!-- chaturbate-live-grid") or line.startswith("<!-- livejasmin-video-grid") or line.startswith("<!-- livejasmin-widget"):
         return ""
+    if 'https://ecdwm.com/embed/lf?' in line:
+        return line
     if line.startswith("LJ-VIDEO-CARD::"):
         raw = line.split("LJ-VIDEO-CARD::", 1)[1]
         title, href, image, duration, quality, hd_label, tags, uploader = (raw.split("||") + [""] * 8)[:8]
@@ -332,6 +334,9 @@ def render_page(title: str, sections: list[tuple[str, list[str]]]) -> str:
     .live-room-tags {{ display:flex; flex-wrap:wrap; gap:8px; }}
     .live-subject {{ font-size:.92rem; color:var(--muted); }}
     .live-room-cta {{ width:100%; margin-top:auto; }}
+    .lj-widget-shell {{ margin-top: 10px; }}
+    .lj-widget-frame {{ width:100%; min-height:300px; border-radius:18px; overflow:hidden; background:#22182f; border:1px solid var(--border); }}
+    .panel iframe {{ width:100%; border:0; border-radius:18px; }}
     @media (max-width: 920px) {{
       .hero-shell, .content-grid {{ grid-template-columns: 1fr; }}
       .shell {{ padding: 18px 14px 42px; }}

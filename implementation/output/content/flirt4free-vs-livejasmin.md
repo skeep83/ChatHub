@@ -127,10 +127,18 @@ This page should be reviewed before publication, especially if it carries affili
 
 - [Try Stripchat](https://example.com/aff/stripchat)
 - [Try Chaturbate](https://chaturbate.com/in/?tour=grq0&campaign=aoQgT&track=skeepy83_flirt4free_vs_livejasmin)
-- [Try LiveJasmin](https://www.livejasmin.com/?psid=Skeepy83)
+- [Try LiveJasmin](https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm%5Bpsid%5D=Skeepy83&prm%5Bpstool%5D=205_1&prm%5Bpsprogram%5D=pps&prm%5Bcampaign_id%5D=&subAffId=dch_flirt4free_vs_livejasmin)
 - [Try Flirt4Free](https://example.com/aff/flirt4free)
 
 ## LiveJasmin featured videos right now
 <!-- livejasmin-video-grid -->
 
+
+
+## LiveJasmin live preview
+
+<!-- livejasmin-widget -->
+<div class="lj-widget-shell">
+  <div id="object_container_dch_lj_compare_widget" class="lj-widget-frame"></div>
+  <script src="https://ecdwm.com/embed/lf?c=object_container_dch_lj_compare_widget&site=jasmin&cobrandId=&psid=Skeepy83&pstool=202_1&psprogram=pps&campaign_id=&category=girl&forcedPerformers[]=&vp[showChat]=&vp[chatAutoHide]=&vp[showCallToAction]=&vp[showPerformerName]=&vp[showPerformerStatus]=&ms_notrack=1&subAffId=dch_lj_compare_widget"></script>
 

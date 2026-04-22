@@ -52,6 +52,14 @@ def cta_overrides(page_type: str, subtype: str) -> dict[str, str]:
     return {}
 
 
+def tracked_livejasmin_link(slug: str) -> str:
+    base = 'https://ctwmsg.com/?performerName=&siteId=jasmin&categoryName=&pageName=home&prm[psid]=Skeepy83&prm[pstool]=205_1&prm[psprogram]=pps&prm[campaign_id]=&subAffId='
+    parts = urlsplit(base)
+    query = dict(parse_qsl(parts.query, keep_blank_values=True))
+    query['subAffId'] = f'dch_{slug.replace("-", "_")[:48]}'
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+
+
 def tracked_chaturbate_link(slug: str, page_type: str) -> str:
     if page_type == 'best_of' and 'private' in slug:
         base = 'https://chaturbate.com/in/?tour=dU9X&campaign=aoQgT&track=default&signup_notice=1'
@@ -78,6 +86,8 @@ def build_block(by_product: dict, page_type: str, subtype: str, slug: str) -> st
         item = by_product[product].copy()
         if product == 'Chaturbate':
             item['placeholder_url'] = tracked_chaturbate_link(slug, page_type)
+        elif product == 'LiveJasmin':
+            item['placeholder_url'] = tracked_livejasmin_link(slug)
         cta = overrides.get(product, item['cta'])
         lines.append(f'- [{cta}]({item["placeholder_url"]})')
     lines.append('')
